@@ -1,0 +1,17 @@
+{
+    "backup": false,
+    "colorcolumn": 72,
+    "colorscheme": "twilight",
+    "diffgutter": true,
+    "hlsearch": true,
+    "keepautoindent": true,
+    "savecursor": true,
+    "scrollbar": true,
+    "scrollmargin": 8,
+    "softwrap": true,
+    "statusformatl": "$(filename) $(modified)($(line),$(col)) $(status.paste)$(opt:fileformat) $(opt:encoding])",
+    "statusformatr": "",
+    "tabhighlight": true,
+    "tabstospaces": true,
+    "wordwrap": true
+}
