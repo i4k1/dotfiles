@@ -1,7 +1,5 @@
 #!/bin/sh
-# A simple script to encode video to WebM
-# usage: ./ffwebm.sh <file> <size in kb>
-# 11-12-2023
+# 11-12-2023 https://github.com/i4k1. A simple script to encode video to WebM. Usage: ./ffwebmenc.sh <file> <size in kilobytes>
 
 if [ $# -ne 2 ]
 then
