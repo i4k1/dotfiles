@@ -18,9 +18,9 @@ set encoding=utf-8
 set fileformat=unix
 set fileformats=unix
 
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set expandtab
 set smarttab
 
@@ -34,3 +34,7 @@ set viminfo=""
 set ignorecase
 set incsearch
 set hlsearch
+
+set list
+set listchars=tab:>.
+set visualbell
