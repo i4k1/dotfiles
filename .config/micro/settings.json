@@ -9,7 +9,7 @@
     "scrollbar": true,
     "scrollmargin": 8,
     "softwrap": true,
-    "statusformatl": "$(filename) $(modified)($(line),$(col)) $(status.paste)$(opt:fileformat) $(opt:encoding)",
+    "statusformatl": "$(filename) $(modified)($(line),$(col)) $(status.paste)$(opt:filetype) $(opt:fileformat) $(opt:encoding)",
     "statusformatr": "",
     "tabhighlight": true,
     "tabstospaces": true,
