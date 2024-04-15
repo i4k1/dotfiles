@@ -1,2 +1,2 @@
 # rice
-Конфиги, скрипты, дотфайлы
+My configs, scripts and dotfiles
