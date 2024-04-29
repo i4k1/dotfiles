@@ -5,6 +5,7 @@
     "diffgutter": true,
     "hlsearch": true,
     "keepautoindent": true,
+    "mkparents": true,
     "savecursor": true,
     "scrollbar": true,
     "scrollmargin": 8,
