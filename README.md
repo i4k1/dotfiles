@@ -16,7 +16,7 @@ My configs, scripts and dotfiles.
   - [`dillo browser`](.dillo/dillorc)
 
 # autodeployment script
-[`autodeploy.sh`](autodeploy.sh) - my own simple automated script to quickly deploy a comfy working environment for Debian-based distributions (something like [LARBS](https://larbs.xyz/), but simpler). This script automatically installs all the necessary software, packages, configs and scripts that I use.
+[`autodeploy.sh`](autodeploy.sh) - my own simple automated script to quickly deploy a comfy working environment for Debian (something like [LARBS](https://larbs.xyz/), but simpler). This script automatically installs all the necessary software, packages, configs and scripts that I use.
 
 Installation:
 ```sh
