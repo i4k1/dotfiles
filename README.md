@@ -5,7 +5,7 @@ Much of what is here doesn't work. Work in progress...
 
 # dotfiles
 My configs, scripts and dotfiles.
-- some useful scripls in [`~/.local/bin/`](.local/bin)
+- some useful scripts in [`~/.local/bin/`](.local/bin)
 - some [`bash aliases`](.bashrc)
 - configs for:
   - [`vim`](.vimrc)
