@@ -1,10 +1,8 @@
-# == WORK IN PROGRESS ==
-Much of what is here doesn't work. Work in progress...
+# Yet Another Stupid Autodeployment Script
 
-![UNDER CONSTRUCTION](https://sabrina-online.com/underconst.gif)
+**== WORK IN PROGRESS ==**
 
-# dotfiles
-My configs, scripts and dotfiles.
+[`yasas.sh`](yasas.sh) (**Y**et **A**nother **S**tupid **A**utodeployment **S**cript) - my own simple automated script to quickly deploy a comfy working environment for Debian (something like [LARBS](https://larbs.xyz/)). This script also automatically installs all the necessary software, packages, configs, scripts and dotfiles that I use:
 - some useful scripts in [`~/.local/bin/`](.local/bin)
 - some [`bash aliases`](.bashrc)
 - configs for:
@@ -15,12 +13,7 @@ My configs, scripts and dotfiles.
   - [`dunst`](.config/dunst/dunstrc)
   - [`dillo browser`](.dillo/dillorc)
 
-# autodeployment script
-[`autodeploy.sh`](autodeploy.sh) - my own simple automated script to quickly deploy a comfy working environment for Debian (something like [LARBS](https://larbs.xyz/), but simpler). This script automatically installs all the necessary software, packages, configs and scripts that I use.
-
-Installation:
+**Installation:**
 ```sh
-curl https://raw.githubusercontent.com/i4k1/dotfiles/main/autodeploy.sh | sh
+curl https://raw.githubusercontent.com/i4k1/dotfiles/main/yasas.sh | sh
 ```
-
-**== WORK IN PROGRESS ==**
