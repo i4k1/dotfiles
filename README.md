@@ -1,6 +1,7 @@
 # Yet Another Stupid Autodeployment Script
 
-**== WORK IN PROGRESS ==**
+>[!WARNING]
+>WORK IN PROGRESS
 
 [`yasas.sh`](yasas.sh) (**Y**et **A**nother **S**tupid **A**utodeployment **S**cript) - my own simple automated script to quickly deploy a comfy working environment for Debian (something like [LARBS](https://larbs.xyz/)). This script also automatically installs all the necessary software, packages, configs, scripts and dotfiles that I use:
 - some useful scripts in [`~/.local/bin/`](.local/bin)
