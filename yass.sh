@@ -46,13 +46,15 @@ cd ..
 
 # move configs and 
 cd ~
-cp -r ~/dotfiles/* .
+cp -rfT ~/dotfiles/* ~/.
 rm -rf ~/dotfiles
 rm -rf ~/suckless
+rm yass.sh README.md LICENSE
 
 # scripts
 sudo chmod 777 ~/.local/bin/dwmstatus.sh
 sudo chmod 777 ~/.local/bin/ffwebmenc.sh
 
 echo "if [ -z \"\$DISPLAY\" ] && [ \"\$XDG_VTNR\" = 1 ]; then exec startx; fi" >> ~/.bash_profile
-echo "exec ~/.local/bin/dwmstatus.sh &&\nexec dunst\nexec dwm" >> ~/.xinitrc
+echo "setxkbmap -layout us,ru -option grp:win_space_toggle &&
+nexec ~/.local/bin/dwmstatus.sh &&\nexec dwm" >> ~/.xinitrc
