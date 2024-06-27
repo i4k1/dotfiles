@@ -18,6 +18,7 @@ cd ..
 cat ~/dotfiles/.bashrc >> ~/.bashrc
 rm ~/dotfiles/.bashrc
 
+# install suckless software
 mkdir suckless
 cd suckless
 
@@ -45,10 +46,8 @@ cd ..
 
 # move configs and 
 cd ~
-mv ~/dotfiles/* ~/
+mv -v ~/dotfiles/* ~/
 rm -rf ~/dotfiles
 
 echo "if [ -z \"\$DISPLAY\" ] && [ \"\$XDG_VTNR\" = 1 ]; then exec startx; fi" >> ~/.bash_profile
 echo "exec ~/.local/bin/dwmstatus.sh && exec dwm" >> ~/.xinitrc
-
-startx
