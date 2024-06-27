@@ -56,5 +56,4 @@ sudo chmod 777 ~/.local/bin/dwmstatus.sh
 sudo chmod 777 ~/.local/bin/ffwebmenc.sh
 
 echo "if [ -z \"\$DISPLAY\" ] && [ \"\$XDG_VTNR\" = 1 ]; then exec startx; fi" >> ~/.bash_profile
-echo "setxkbmap -layout us,ru -option grp:win_space_toggle &&
-nexec ~/.local/bin/dwmstatus.sh &&\nexec dwm" >> ~/.xinitrc
+echo "exec setxkbmap -layout us,ru -option grp:win_space_toggle &&\nexec ~/.local/bin/dwmstatus.sh &&\nexec dwm" >> ~/.xinitrc
