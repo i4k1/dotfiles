@@ -46,7 +46,7 @@ cd ..
 
 # move configs and 
 cd ~
-cp -r ~/dotfiles/* ~/.
+cp -r ~/dotfiles/* .
 rm -rf ~/dotfiles
 rm -rf ~/suckless
 
