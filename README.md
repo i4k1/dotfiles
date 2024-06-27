@@ -17,5 +17,5 @@
 
 **Installation:**
 ```sh
-curl https://raw.githubusercontent.com/i4k1/dotfiles/main/yasas.sh | sh
+curl https://raw.githubusercontent.com/i4k1/dotfiles/main/yass.sh | sh
 ```
