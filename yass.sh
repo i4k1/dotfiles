@@ -42,11 +42,10 @@ patch < dwm-hide_vacant_tags-6.4.diff
 rm config.h
 cp ~/dotfiles/.config/config.h config.h
 sudo make install clean
-cd ..
+cd ../..
 
 # move configs and 
-cd ~
-cp -rfT ~/dotfiles/* ~/.
+cp -rfT dotfiles/ .
 rm -rf ~/dotfiles
 rm -rf ~/suckless
 rm yass.sh README.md LICENSE
