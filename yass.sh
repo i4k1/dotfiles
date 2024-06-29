@@ -30,8 +30,6 @@ tar xvf dmenu-5.3.tar.gz
 
 # patch, compile and install dmenu
 cd dmenu-5.3
-wget https://tools.suckless.org/dmenu/patches/highlight/dmenu-highlight-4.9.diff
-patch < dmenu-highlight-4.9.diff
 sudo make install clean
 cd ..
 
@@ -55,4 +53,4 @@ sudo chmod 777 ~/.local/bin/dwmstatus.sh
 sudo chmod 777 ~/.local/bin/ffwebmenc.sh
 
 echo "if [ -z \"\$DISPLAY\" ] && [ \"\$XDG_VTNR\" = 1 ]; then exec startx; fi" >> ~/.bashrc
-echo "exec setxkbmap -layout us,ru -option grp:win_space_toggle &\nexec ~/.local/bin/dwmstatus.sh &\nexec dunst&\nexec dwm" >> ~/.xinitrc
+echo "exec setxkbmap -layout us,ru -option grp:win_space_toggle &\nexec ~/.local/bin/dwmstatus.sh &\nexec dunst &\nexec dwm" >> ~/.xinitrc
