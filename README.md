@@ -1,9 +1,8 @@
-# Dotfiles
-
->[!WARNING]
->WORK IN PROGRESS
+# .files
 
 - some useful scripts in [`~/.local/bin/`](.local/bin)
+  - [`dwmstatus`](.local/bin/dwmstatus.sh) - [status monitor](https://dwm.suckless.org/status_monitor) script for [dwm](https://dwm.suckless.org)
+  - [`ffwebmenc`](.local/bin/ffwebmenc.sh) - script to encode videos in WebM VP9 using [ffmpeg](https://ffmpeg.org)
 - some [`bash aliases`](.bashrc)
 - configs for:
   - [`vim`](.vimrc)
@@ -15,9 +14,16 @@
   - [`dunst`](.config/dunst/dunstrc)
   - [`dillo browser`](.dillo/dillorc)
 
-[`yass.sh`](yass.sh) (**Y**et **A**nother **S**tupid **S**cript) - my own simple automated script to quickly deploy a comfy working environment for Debian (something like [LARBS](https://larbs.xyz/)). This script also automatically installs all the necessary software, packages, configs, scripts and dotfiles that I use.
+# Yet Another Stupid Script
 
-**Installation:**
-```sh
-curl https://raw.githubusercontent.com/i4k1/dotfiles/main/yass.sh | sh
-```
+>[!WARNING]
+>WORK IN PROGRESS
+
+[`yass.sh`](yass.sh) - my own automated script to quickly deploy a comfy working environment for Debian (something like [LARBS](https://larbs.xyz/)). This script also automatically installs all the necessary software, packages, configs, scripts and dotfiles that I use.
+
+## TODO:
+- [ ] make the script work also in [Arch](https://archlinux.org), [Gentoo](https://gentoo.org), [Slackware](http://www.slackware.com)
+- [ ] make configs more adapted for different distributions
+- [ ] can install with debootstrap, pacstrap etc
+- [ ] create and configure a new user
+- [ ] make it little prettier
