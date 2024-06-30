@@ -11,6 +11,7 @@
   - [`micro`](.config/micro/settings.json)
   - [`tmux`](.config/tmux/tmux.conf)
   - [`gtk2`](.config/gtk-2.0/gtkrc-2.0) & [`gtk3`](.config/gtk-3.0/settings.ini)
+  - [`awesome`](.config/awesome/rc.lua)
   - [`dunst`](.config/dunst/dunstrc)
   - [`dillo browser`](.dillo/dillorc)
 
