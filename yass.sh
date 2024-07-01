@@ -53,4 +53,4 @@ sudo chmod 777 ~/.local/bin/dwmstatus.sh
 sudo chmod 777 ~/.local/bin/ffwebmenc.sh
 
 echo "if [ -z \"\$DISPLAY\" ] && [ \"\$XDG_VTNR\" = 1 ]; then exec startx; fi" >> ~/.bashrc
-echo "exec setxkbmap -layout us,ru -option grp:alt_shift_toggle &\nexec ~/.local/bin/dwmstatus.sh &\nexec picom &\nexec dunst &\nexec feh --bg-scale --no-fehbg ~/.local/share/bg/waterfalls.jpg &\nexec dwm" >> ~/.xinitrc
+echo "exec setxkbmap -layout us,ru -option grp:alt_shift_toggle &\nexec ~/.local/bin/dwmstatus.sh &\nexec picom -b -c -f -D 2 &\nexec dunst &\nexec feh --bg-scale --no-fehbg ~/.local/share/bg/waterfalls.jpg &\nexec dwm" >> ~/.xinitrc
