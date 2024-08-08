@@ -38,4 +38,5 @@ set hlsearch
 
 set list
 set listchars=tab:>.
-set visualbell
+set novisualbell
+set belloff=all
