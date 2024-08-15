@@ -33,6 +33,7 @@ set noswapfile
 set viminfo=""
 
 set ignorecase
+set smartcase
 set incsearch
 set hlsearch
 
