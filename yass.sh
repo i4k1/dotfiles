@@ -53,4 +53,4 @@ sudo chmod +x ~/.local/bin/dwmstatus.sh
 sudo chmod +x ~/.local/bin/ffwebmenc.sh
 
 echo "\nif [ -z \"\$DISPLAY\" ] && [ \"\$XDG_VTNR\" = 1 ]; then exec startx; fi\n" >> ~/.bashrc
-echo "exec setxkbmap -layout us,ru -option grp:alt_shift_toggle &\nexec ~/.local/bin/dwmstatus.sh &\nexec picom &\nexec dunst &\nexec feh --bg-scale --no-fehbg ~/.local/share/bg/waterfalls.jpg &\nexec dwm" >> ~/.xinitrc
+cat ~/dotfiles/.xinitrc > ~/.xinitrc
