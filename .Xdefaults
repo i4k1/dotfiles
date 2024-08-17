@@ -1,0 +1,4 @@
+XTerm*termName: xterm-256color
+XTerm*faceName: Liberation Mono:pixelsize=16:antialias=true:autohint=true
+XTerm*foreground: beige
+XTerm*background: black
