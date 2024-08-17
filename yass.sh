@@ -2,7 +2,7 @@
 # automatic script for quick deployment of a working environment
 
 # install packages
-sudo apt update && sudo apt install -y build-essential make gdb tcc nasm yasm fasm git patch man pkg-config tmux mc bc vim emacs nano mg micro ffmpeg dunst libsdl2-dev libx11-dev libxft-dev libxinerama-dev yt-dlp neofetch screenfetch cpufetch dillo netsurf-fb netsurf-gtk lynx htop btop schism curl wget cmatrix bb caca-utils mpv nethack-console crawl ninvaders xorg xterm tint groff mandoc debootstrap vrms gzip bzip2 lzip transmission transmission-cli irssi mutt pass nginx grafx2 busybox bash-completion feh arc-theme tango-icon-theme faenza-icon-theme lxappearance fonts-liberation cwm awesome nmap whois zsh dash bash fonts-powerline fonts-hack libnotify-bin libnotify-dev libnotify-doc xcompmgr picom
+sudo apt update && sudo apt install -y build-essential make gdb tcc nasm yasm fasm git patch man pkg-config tmux mc bc vim emacs nano mg micro ffmpeg dunst libsdl2-dev libx11-dev libxft-dev libxinerama-dev yt-dlp neofetch screenfetch cpufetch dillo netsurf-fb netsurf-gtk lynx htop btop schism curl wget cmatrix bb caca-utils mpv nethack-console crawl ninvaders xorg xterm tint groff mandoc debootstrap vrms gzip bzip2 lzip transmission transmission-cli irssi mutt pass nginx grafx2 busybox bash-completion feh arc-theme tango-icon-theme faenza-icon-theme lxappearance fonts-liberation cwm awesome nmap whois zsh dash bash fonts-powerline fonts-hack libnotify-bin libnotify-dev libnotify-doc xcompmgr picom net-tools
 
 cd ~
 
@@ -16,6 +16,7 @@ cd ..
 
 # add aliases
 cat ~/dotfiles/.bashrc >> ~/.bashrc
+cat ~/dotfiles/.xinitrc > ~/.xinitrc
 rm ~/dotfiles/.bashrc
 
 # install suckless software
@@ -51,6 +52,3 @@ rm yass.sh README.md LICENSE
 # scripts
 sudo chmod +x ~/.local/bin/dwmstatus.sh
 sudo chmod +x ~/.local/bin/ffwebmenc.sh
-
-echo "\nif [ -z \"\$DISPLAY\" ] && [ \"\$XDG_VTNR\" = 1 ]; then exec startx; fi\n" >> ~/.bashrc
-cat ~/dotfiles/.xinitrc > ~/.xinitrc
