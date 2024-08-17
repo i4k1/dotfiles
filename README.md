@@ -1,5 +1,7 @@
 # .files
 
+![Desktop Screenshot](screenshot1.png)
+
 - some useful scripts in [`~/.local/bin/`](.local/bin)
   - [`dwmstatus`](.local/bin/dwmstatus.sh) - [status monitor](https://dwm.suckless.org/status_monitor) script for [dwm](https://dwm.suckless.org)
   - [`ffwebmenc`](.local/bin/ffwebmenc.sh) - script to encode videos in WebM VP9 using [ffmpeg](https://ffmpeg.org)
